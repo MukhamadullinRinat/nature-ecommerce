@@ -1,0 +1,62 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with landscape -->
+  <rect width="400" height="300" fill="#e8f5e8"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="280" rx="180" ry="20" fill="#8FBC8F"/>
+  <ellipse cx="200" cy="275" rx="160" ry="15" fill="#9ACD32" opacity="0.6"/>
+  
+  <!-- Multiple oak saplings -->
+  <!-- Sapling 1 (center) -->
+  <g transform="translate(200,150)">
+    <rect x="-4" y="50" width="8" height="80" fill="#8B4513" rx="2"/>
+    <!-- Leaves -->
+    <circle cx="0" cy="45" r="20" fill="#228B22"/>
+    <circle cx="-12" cy="40" r="15" fill="#32CD32" opacity="0.8"/>
+    <circle cx="12" cy="40" r="15" fill="#32CD32" opacity="0.8"/>
+    <circle cx="0" cy="30" r="12" fill="#90EE90" opacity="0.8"/>
+    <!-- Branches with oak leaves -->
+    <path d="M0 60 Q15 55 20 65 Q15 75 0 70" fill="#8B4513"/>
+    <path d="M20 70 Q35 65 40 75 Q35 85 20 80 Q15 75 20 70" fill="#228B22"/>
+    <path d="M0 80 Q-15 75 -20 85 Q-15 95 0 90" fill="#8B4513"/>
+    <path d="M-20 90 Q-35 85 -40 95 Q-35 105 -20 100 Q-15 95 -20 90" fill="#228B22"/>
+  </g>
+  
+  <!-- Sapling 2 (left) -->
+  <g transform="translate(120,170) scale(0.8)">
+    <rect x="-3" y="40" width="6" height="70" fill="#8B4513" rx="1"/>
+    <circle cx="0" cy="35" r="15" fill="#228B22"/>
+    <circle cx="-8" cy="32" r="10" fill="#32CD32" opacity="0.8"/>
+    <circle cx="8" cy="32" r="10" fill="#90EE90" opacity="0.8"/>
+  </g>
+  
+  <!-- Sapling 3 (right) -->
+  <g transform="translate(280,165) scale(0.9)">
+    <rect x="-3" y="45" width="6" height="75" fill="#8B4513" rx="1"/>
+    <circle cx="0" cy="40" r="18" fill="#228B22"/>
+    <circle cx="-10" cy="35" r="12" fill="#32CD32" opacity="0.8"/>
+    <circle cx="10" cy="35" r="12" fill="#90EE90" opacity="0.8"/>
+    <circle cx="0" cy="25" r="10" fill="#98FB98" opacity="0.8"/>
+  </g>
+  
+  <!-- Growth indicators and environment -->
+  <circle cx="150" cy="120" r="2" fill="#90EE90" opacity="0.6"/>
+  <circle cx="250" cy="110" r="2" fill="#90EE90" opacity="0.6"/>
+  <circle cx="180" cy="100" r="1.5" fill="#98FB98" opacity="0.6"/>
+  <circle cx="220" cy="95" r="1.5" fill="#98FB98" opacity="0.6"/>
+  
+  <!-- Small grass -->
+  <path d="M50 250 Q45 240 50 230 Q55 240 50 250" fill="#228B22" opacity="0.6"/>
+  <path d="M350 260 Q345 250 350 240 Q355 250 350 260" fill="#228B22" opacity="0.6"/>
+  <path d="M80 270 Q75 260 80 250 Q85 260 80 270" fill="#32CD32" opacity="0.6"/>
+  <path d="M320 275 Q315 265 320 255 Q325 265 320 275" fill="#32CD32" opacity="0.6"/>
+  
+  <!-- Root indicators (underground) -->
+  <ellipse cx="200" cy="285" rx="30" ry="5" fill="#8B4513" opacity="0.3"/>
+  <ellipse cx="120" cy="285" rx="20" ry="3" fill="#8B4513" opacity="0.3"/>
+  <ellipse cx="280" cy="285" rx="25" ry="4" fill="#8B4513" opacity="0.3"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" fill="#2d4a32" font-family="serif" font-size="18" font-weight="bold">Oak Grove Nursery</text>
+  <text x="200" y="40" text-anchor="middle" fill="#6b8e23" font-family="Arial" font-size="12">Healthy Young Trees • Perfect for Landscaping</text>
+</svg>

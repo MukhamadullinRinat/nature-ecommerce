@@ -1,0 +1,52 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#fff8dc"/>
+  
+  <!-- Multiple Japanese Maple leaves arranged -->
+  <!-- Leaf 1 -->
+  <g transform="translate(150,100) rotate(-15)">
+    <path d="M0 0 L-20 -30 Q-15 -40 -5 -35 L0 -50 L5 -35 Q15 -40 20 -30 L0 0" fill="#FF4500"/>
+    <path d="M0 0 L20 -30 Q25 -20 15 -15 L30 0 L15 5 Q25 15 20 20 L0 0" fill="#DC143C"/>
+    <path d="M0 0 L20 20 Q15 30 5 25 L0 40 L-5 25 Q-15 30 -20 20 L0 0" fill="#B22222"/>
+    <path d="M0 0 L-20 20 Q-25 10 -15 5 L-30 0 L-15 -5 Q-25 -15 -20 -20 L0 0" fill="#8B0000"/>
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#8B4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Leaf 2 -->
+  <g transform="translate(250,120) rotate(25)">
+    <path d="M0 0 L-15 -25 Q-12 -32 -5 -30 L0 -40 L5 -30 Q12 -32 15 -25 L0 0" fill="#FF6347"/>
+    <path d="M0 0 L15 -25 Q20 -18 12 -15 L25 0 L12 3 Q20 12 15 15 L0 0" fill="#FF4500"/>
+    <path d="M0 0 L15 15 Q12 25 5 22 L0 35 L-5 22 Q-12 25 -15 15 L0 0" fill="#DC143C"/>
+    <path d="M0 0 L-15 15 Q-20 8 -12 3 L-25 0 L-12 -3 Q-20 -12 -15 -15 L0 0" fill="#B22222"/>
+    <line x1="0" y1="0" x2="0" y2="35" stroke="#8B4513" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Leaf 3 -->
+  <g transform="translate(80,180) rotate(45)">
+    <path d="M0 0 L-12 -20 Q-10 -25 -3 -23 L0 -30 L3 -23 Q10 -25 12 -20 L0 0" fill="#8B0000"/>
+    <path d="M0 0 L12 -20 Q15 -15 10 -12 L20 0 L10 2 Q15 8 12 12 L0 0" fill="#DC143C"/>
+    <path d="M0 0 L12 12 Q10 20 3 18 L0 25 L-3 18 Q-10 20 -12 12 L0 0" fill="#FF4500"/>
+    <path d="M0 0 L-12 12 Q-15 6 -10 2 L-20 0 L-10 -2 Q-15 -8 -12 -12 L0 0" fill="#B22222"/>
+    <line x1="0" y1="0" x2="0" y2="25" stroke="#8B4513" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Leaf 4 -->
+  <g transform="translate(320,180) rotate(-30)">
+    <path d="M0 0 L-18 -28 Q-14 -35 -6 -32 L0 -45 L6 -32 Q14 -35 18 -28 L0 0" fill="#FF6347"/>
+    <path d="M0 0 L18 -28 Q22 -20 14 -16 L28 0 L14 4 Q22 13 18 18 L0 0" fill="#FF4500"/>
+    <path d="M0 0 L18 18 Q14 28 6 25 L0 38 L-6 25 Q-14 28 -18 18 L0 0" fill="#DC143C"/>
+    <path d="M0 0 L-18 18 Q-22 10 -14 4 L-28 0 L-14 -4 Q-22 -13 -18 -18 L0 0" fill="#8B0000"/>
+    <line x1="0" y1="0" x2="0" y2="38" stroke="#8B4513" stroke-width="2"/>
+  </g>
+  
+  <!-- Ground scatter -->
+  <ellipse cx="200" cy="250" rx="150" ry="10" fill="#DEB887" opacity="0.3"/>
+  
+  <!-- Small falling leaves -->
+  <circle cx="120" cy="60" r="3" fill="#FF4500" opacity="0.7"/>
+  <circle cx="280" cy="80" r="2" fill="#DC143C" opacity="0.7"/>
+  <circle cx="350" cy="120" r="2.5" fill="#B22222" opacity="0.7"/>
+  
+  <!-- Title -->
+  <text x="200" y="280" text-anchor="middle" fill="#8B4513" font-family="serif" font-size="16">Autumn Maple Collection</text>
+</svg>
